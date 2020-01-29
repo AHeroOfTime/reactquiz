@@ -53,6 +53,11 @@ module.exports = {
     "function-paren-newline": 0,
     "linebreak-style": 0,
     "react/prefer-stateless-function": 0,
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "react/no-array-index-key": 1,
+    "react/no-unused-state": 1,
+    "react/destructuring-assignment": 1,
+    "max-len": ["error", { "code": 150 }],
+    "import/prefer-default-export": 0,
   }
 };
