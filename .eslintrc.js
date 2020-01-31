@@ -59,5 +59,6 @@ module.exports = {
     "react/destructuring-assignment": 1,
     "max-len": ["error", { "code": 150 }],
     "import/prefer-default-export": 0,
+    "no-return-assign": 0,
   }
 };
