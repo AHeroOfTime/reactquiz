@@ -60,5 +60,7 @@ module.exports = {
     "max-len": ["error", { "code": 150 }],
     "import/prefer-default-export": 0,
     "no-return-assign": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/self-closing-comp": 0,
   }
 };
