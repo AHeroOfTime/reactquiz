@@ -13,7 +13,7 @@ export default function HighScores() {
       setScores(sortedScores);
       setLoading(false);
     });
-  });
+  }, [firebase]);
 
   const formatScoreData = (firebaseScores) => {
     const scores = [];
