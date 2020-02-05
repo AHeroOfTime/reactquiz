@@ -12,7 +12,7 @@ const convertQuestionsFromAPI = (rawQuestions) => rawQuestions.map((loadedQuesti
   return formattedQuestion;
 });
 
-export const loadQuestions = async (amount = 3, category = 15, difficulty = 'easy', type = 'multiple') => {
+export const loadQuestions = async (amount = 10, category = 15, difficulty = 'easy', type = 'multiple') => {
   const url = `https://opentdb.com/api.php?amount=${amount}&category=${category}&difficulty=${difficulty}&type=${type}`;
 
   try {
